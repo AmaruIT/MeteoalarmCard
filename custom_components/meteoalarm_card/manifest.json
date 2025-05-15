@@ -1,0 +1,9 @@
+{
+  "domain": "meteoalarm_card",
+  "name": "Meteoalarm Card",
+  "documentation": "https://github.com/AmaruIT/MeteoalarmCard-ru",
+  "dependencies": [],
+  "codeowners": ["@yAmaruIT"],
+  "version": "1.0.0",
+  "requirements": []
+}
