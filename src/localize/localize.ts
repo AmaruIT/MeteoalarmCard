@@ -1,4 +1,4 @@
-import * as sv from './languages/ru.json';
+import * as ru from './languages/ru.json';
 import * as bg from './languages/bg.json';
 import * as ca from './languages/ca.json';
 import * as cs from './languages/cs.json';
