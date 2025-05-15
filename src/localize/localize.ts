@@ -1,3 +1,4 @@
+import * as sv from './languages/ru.json';
 import * as bg from './languages/bg.json';
 import * as ca from './languages/ca.json';
 import * as cs from './languages/cs.json';
@@ -16,6 +17,7 @@ import * as sk from './languages/sk.json';
 import * as sv from './languages/sv.json';
 
 const languages: any = {
+	ru: ru,
 	en: en,
 	de: de,
 	nl: nl,
@@ -62,7 +64,7 @@ export function localize(string: string): string {
 	// Try using english
 	if (translated == undefined) {
 		try {
-			translated = string.split('.').reduce((o, i) => o[i], languages['en']);
+			translated = string.split('.').reduce((o, i) => o[i], languages['ru']);
 		} catch (e) {
 			// eslint-disable-next-line no-console
 			console.warn(
